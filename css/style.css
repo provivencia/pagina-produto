@@ -31,7 +31,7 @@ body a{
 }
 /*----navbar-nav----*/
 .top-header{
-	background: #FFf;
+	background: black;
 	padding: 0.7em 1.5em;
 	margin: 3.5em 0 0 0;
 	box-shadow: 0px 0px 4px #C9C9C9;
@@ -42,7 +42,7 @@ body a{
 	
 }
 .top-nav ul li a{
-	color: #7E7C7E;
+	color: #cdab4a;
 	padding: 0.2em 1.5em;
 	font-size: 0.9em;
 	font-weight: 400;
@@ -53,7 +53,7 @@ body a{
 }
 .top-nav ul li.active a,
 .top-nav ul li a:hover{
-	color:#282528;
+	color:#cdab4a;
 }
 .logo a{
 	display:block;
@@ -140,7 +140,6 @@ nav a#pull {
 	}
 	nav a#pull:after {
 		content:"";
-		background: url('nav-icon.png') no-repeat;
 		width: 30px;
 		height: 30px;
 		display: inline-block;
@@ -269,7 +268,6 @@ nav a#pull {
 	text-decoration: none;
 	height: 61px;
 	width: 55px;
-	background: transparent url("../images/themes.png") no-repeat left top;
 	margin-top: -65px;
 }
 .callbacks_nav:active {
@@ -896,7 +894,7 @@ p.copy a:hover{
      padding: 0.2em 1em;	
 }
 .divice-demo img {
-     width: 60%;
+     width: 80%;
 }
 .slide-text-info h1 {
   font-size: 1.5em;
@@ -1005,7 +1003,7 @@ p.copy a:hover{
 		display: inline-block;
 	}
 	.top-header {
-		  background: #FFf;
+		  background: black;
 		  padding: 0.3em 1.5em;
     }
     .footer-divice img {
@@ -1195,7 +1193,7 @@ p.copy a:hover{
 /*-----320px-mediaquries----*/
 @media (max-width:320px){
 	.divice-demo img{
-		width: 30%;
+		width: 90%;
 	}
 	.slide-text-info {
 		margin: -6% 0 0;
